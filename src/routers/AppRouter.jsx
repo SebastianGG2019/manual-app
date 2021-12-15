@@ -6,18 +6,18 @@ import {
 } from "react-router-dom";
 import { Main } from "../components/main/Main";
 import { DashboardRoutes } from "./DashboardRoutes";
-import { Nav } from '../components/nav/Nav'
+// import { Nav } from '../components/nav/Nav'
+// import { LateralBar } from "../components/lateralBar/LateralBar";
 
 export const AppRouter = () => {
     return (
         <Router>
       <div>
-          <Nav></Nav>
-        <Switch>
-         <Route exact path="/main" component={Main} />
+            <Switch>
+                <Route exact path="/main" component={Main} />
 
-         <Route path="/" component={DashboardRoutes} />
-        </Switch>
+                <Route path="/" component={DashboardRoutes} />
+            </Switch>
       </div>
     </Router>
     )
