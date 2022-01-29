@@ -1,7 +1,7 @@
 import React from 'react'
 import { Redirect, Route, Switch } from 'react-router'
 import { Capitulo1 } from '../components/capitulo1/Capitulo1'
-import { Capitulo2 } from '../components/capitulo2/Capitulo2'
+import { Capitulo2 } from '../components/capitulo2/capitulo2'
 import { Main } from '../components/main/Main'
 import { Nav } from '../components/nav/Nav'
 import { LateralBar } from "../components/lateralBar/LateralBar";
