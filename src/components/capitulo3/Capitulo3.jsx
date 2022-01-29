@@ -14,7 +14,8 @@ export const Capitulo3 = () => {
 
   return (
     <div className='derechaColumna'>
-        <Button onClick={download} variant='contained'>Descargar Script SQL</Button>
+        <h3>Script Base de datos</h3>
+        <Button style={{margin: '10px'}} onClick={download} variant='contained'>Descargar Script SQL</Button>
     </div>
   )
 };
