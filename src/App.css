@@ -8,7 +8,7 @@ li{
   list-style: none;
 }
 #root{
-  background: linear-gradient(to bottom, #1515B3, #DC31CE, #C61660);
+  background: white;
   padding-bottom: 90px;
   min-height: 100vh;
 }
@@ -34,22 +34,26 @@ li{
   padding: 15px 0;
 }
 .izquierdaColumna li:hover{
-  background:  black;
-  color: white;
+  background:  white;
+  color: black;
 }
 .izquierdaColumna ul{
   padding-left: 0;
 }
 .izquierdaColumna{
   border-radius: 20px;
-  background: white;
+  background: rgba(0, 0, 0, 0.8);
   margin-right: 20px;
+  max-width: 250px;
+}
+.izquierdaColumna li {
+  color: white;
 }
 .derechaColumna{
   background: white;
+  border: 1px solid black;
   border-radius: 20px;
   padding: 20px 30px;
-  box-shadow: 3px 5px #6f6f6f;
 }
 .imagenesCap{
   display: flex;

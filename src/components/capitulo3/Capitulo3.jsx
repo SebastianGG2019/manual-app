@@ -5,7 +5,7 @@ export const Capitulo3 = () => {
 
     const download = () => {
         const downloadInstance = document.createElement('a');
-        downloadInstance.href = "https://shiftedit.net/edit#1089085/1M96hpQPY7TOvQmmbb7lXVCLbIqmzd7Uo"
+        downloadInstance.href = "https://github.com/SebastianGG2019/manual-app/blob/main/ScriptBd/administrador_base.sql"
         downloadInstance.target = '_blank'
         downloadInstance.download = 'Script_sql'
         document.body.appendChild(downloadInstance)
