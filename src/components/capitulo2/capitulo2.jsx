@@ -7,7 +7,8 @@ export const Capitulo2 = () => {
   return (
 
     <div className='derechaColumna'>
-      <h3>Diagrama Proyecto</h3>
+      <h3>Diagrama Proyecto 1
+      </h3>
       <img src={diagrama} alt="" />
     </div>
 );
