@@ -49,6 +49,7 @@ li{
   background: white;
   border-radius: 20px;
   padding: 20px 30px;
+  box-shadow: 3px 5px #6f6f6f;
 }
 .imagenesCap{
   display: flex;
